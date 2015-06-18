@@ -24,6 +24,7 @@
     "commander": "^2.8.1",
     "lodash": "^3.9.3",
     "moment": "^2.10.3",
+    "moment-range": "^2.0.2",
     "s3-streaming-upload": "^0.2.1"
   },
   "engines": {
