@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "async": "~0.9.x",
-    "aws-sdk": "~2.0.x",
+    "aws-sdk": "^2.1.34",
     "commander": "~2.5.x",
     "moment": "~2.8.x",
     "s3-streaming-upload": "~0.1.x",
