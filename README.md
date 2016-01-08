@@ -88,7 +88,7 @@ var backup = new DynamoBackup(options);
 
 ### error
 
-Raised when there is an error backing up a table
+Raised when there is an error backing up a table.
 
 __Example__
 ```
@@ -100,7 +100,7 @@ backup.on('error', function(data) {
 
 ### start-backup
 
-Raised when the backup of a table is begining
+Raised when the backup of a table is begining.
 
 __Example__
 ```
@@ -111,7 +111,7 @@ backup.on('start-backup', function(tableName) {
 
 ### end-backup
 
-Raised when the backup of a table is finished
+Raised when the backup of a table is finished.
 
 __Example__
 ```
@@ -134,7 +134,7 @@ __Arguments__
 
 ### backupTable
 
-Backups all tables in the given region while respecting the `excludedTables` and `includedTables` options
+Backup a single table.
 
 __Arguments__
 
